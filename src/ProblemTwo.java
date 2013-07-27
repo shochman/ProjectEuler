@@ -11,6 +11,7 @@ public class ProblemTwo {
      * By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 	 */
 	public static void main(String[] args) {
+		long now = System.currentTimeMillis();
 		int firstValue = 1;
 		int secondValue = 2;
 		int sum = 0;
@@ -23,6 +24,7 @@ public class ProblemTwo {
 			firstValue = tmp;
 		}
 		System.out.println("Sum: " + sum);
+		System.out.println("Completed in " + (System.currentTimeMillis() - now) + " ms.");
 	}
 
 }
