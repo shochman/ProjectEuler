@@ -1,3 +1,4 @@
+package ProjectEuler;
 
 public class ProblemTwo {
 
